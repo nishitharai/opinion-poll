@@ -1,0 +1,21 @@
+ <h2>OPINION POLL FORM</h2>
+    <h3>Question:Who is your favourite author?</h3>
+  <div>
+    <input value="Miguel" type="radio" name="author" (change) = "authorSelected()" [(ngModel)]="selectedAuthor"/> 
+  <label>Miguel de Cervantes</label>
+  </div>
+  <div>
+ <input value="Charles" type="radio" name="author" (change) = "authorSelected()" [(ngModel)]="selectedAuthor"/>
+ <label> Charles Dickens</label>
+  </div>
+  <div>
+ <input value="Tolkien" type="radio" name="author" (change) = "authorSelected()" [(ngModel)]="selectedAuthor"/>
+ <label>  J.R.R. Tolkien</label>
+  </div>
+  <div>
+ <input value="Antoine" type="radio" name="author" (change) = "authorSelected()" [(ngModel)]="selectedAuthor">  
+ <label> Antoine de Saint-Exuper</label>
+  </div>
+  <div id="button">
+  <a (click) ="viewResult()">View Results</a>
+  </div>

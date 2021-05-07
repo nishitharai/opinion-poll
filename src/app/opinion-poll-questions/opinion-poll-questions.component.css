@@ -1,0 +1,8 @@
+h2 {
+  text-align: center;
+}
+#button {
+  color: midnightblue;
+  padding: 20px;
+  cursor: pointer;
+}
